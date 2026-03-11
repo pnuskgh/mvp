@@ -1,0 +1,20 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "REST API를 포함한 개인 재무 관리 AI 서비스",
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "homepage": "https://github.com/pnuskgh/mvp#readme",
+  "bugs": {
+    "url": "https://github.com/pnuskgh/mvp/issues"
+  },
+  "license": "MIT",
+  "author": "gye hyun james kim",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "개인 재무 관리 AI 서비스",
+  "keywords": [
+    "Web",
+    "Service"
+  ],
+  "homepage": "https://github.com/pnuskgh/mvp#readme",
+  "bugs": {
+    "url": "https://github.com/pnuskgh/mvp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnuskgh/mvp.git"
+  },
+  "license": "MIT",
+  "author": "gye hyun james kim",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

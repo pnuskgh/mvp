@@ -140,3 +140,122 @@ vite.config.ts.timestamp-*
 
 package-lock.json
 yarn.lock
+
+# React Native
+
+# OSX
+#
+.DS_Store
+*.pem
+
+# Xcode
+#
+mobile_app/build/
+mobile_app/*.pbxuser
+mobile_app/!default.pbxuser
+mobile_app/*.mode1v3
+!mobile_app/default.mode1v3
+mobile_app/*.mode2v3
+!mobile_app/default.mode2v3
+mobile_app/*.perspectivev3
+!mobile_app/default.perspectivev3
+mobile_app/xcuserdata
+mobile_app/*.xccheckout
+mobile_app/*.moved-aside
+mobile_app/DerivedData
+mobile_app/*.hmap
+mobile_app/*.ipa
+mobile_app/*.xcuserstate
+mobile_app/**/.xcode.env.local
+
+# Android/IntelliJ
+#
+mobile_app/build/
+mobile_app/.idea
+mobile_app/.gradle
+mobile_app/local.properties
+mobile_app/*.iml
+mobile_app/*.hprof
+mobile_app/.cxx/
+mobile_app/*.keystore
+!mobile_app/debug.keystore
+
+# node.js
+#
+mobile_app/node_modules/
+mobile_app/npm-debug.*
+mobile_app/yarn-debug.*
+mobile_app/yarn-error.*
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+mobile_app/**/fastlane/report.xml
+mobile_app/**/fastlane/Preview.html
+mobile_app/**/fastlane/screenshots
+mobile_app/**/fastlane/test_output
+
+# Bundle artifact
+mobile_app/*.jsbundle
+
+# Ruby / CocoaPods
+mobile_app/**/Pods/
+mobile_app/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+mobile_app/.metro-health-check*
+
+# testing
+mobile_app/coverage
+
+# Yarn
+mobile_app/.yarn/*
+!mobile_app/.yarn/patches
+!mobile_app/.yarn/plugins
+!mobile_app/.yarn/releases
+!mobile_app/.yarn/sdks
+!mobile_app/.yarn/versions
+
+# 공통 사항
+package-lock.json
+Gemfile.lock
+
+# In Window
+mobile_app/android/
+
+# In MacBook
+mobile_app/ios/
+
+# Expo
+mobile_app/.expo/
+mobile_app/dist/
+mobile_app/web-build/
+mobile_app/expo-env.d.ts
+
+# Native
+mobile_app/*.orig.*
+mobile_app/*.jks
+mobile_app/*.p8
+mobile_app/*.p12
+mobile_app/*.key
+mobile_app/*.mobileprovision
+
+# Metro
+mobile_app/.metro-health-check*
+
+# local env files
+mobile_app/.env*.local
+
+# typescript
+mobile_app/*.tsbuildinfo
+
+mobile_app/app-example
+
+mobile_app/env.tsx
+
+mobile_app/.bundle
+mobile_app/__tests__/
